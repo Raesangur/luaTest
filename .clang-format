@@ -12,7 +12,7 @@ AlignTrailingComments:          true
 
 AllowAllArgumentsOnNextLine:                true
 AllowAllConstructorInitializersOnNextLine:  true
-AllowAllParametersOfDeclarationOnNextLine:  true
+AllowAllParametersOfDeclarationOnNextLine:  false
 AllowShortBlocksOnASingleLine:              false
 AllowShortCaseLabelsOnASingleLine:          false
 AllowShortFunctionsOnASingleLine:           None
@@ -25,9 +25,10 @@ AlwaysBreakAfterReturnType:             AllDefinitions
 AlwaysBreakBeforeMultilineStrings:      true
 AlwaysBreakTemplateDeclarations:        Yes
 BinPackArguments:                       false
+BinPackParameters:                      false
 
 BreakAfterJavaFieldAnnotations:         true
-BreakBeforeBinaryOperators:             None
+BreakBeforeBinaryOperators:             NonAssignment
 BreakBeforeBraces:                      Allman
 BreakBeforeTernaryOperators:            true
 BreakConstructorInitializers:           BeforeColon

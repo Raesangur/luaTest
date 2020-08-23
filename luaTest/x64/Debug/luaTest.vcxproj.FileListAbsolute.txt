@@ -1,0 +1,2 @@
+E:\GitHub\luaTest\luaTest\x64\Debug\luaTest.exe
+E:\GitHub\luaTest\luaTest\x64\Debug\luaTest.pdb
